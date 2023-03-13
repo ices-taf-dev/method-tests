@@ -4,9 +4,9 @@ library(icesTAF, warn.conflicts=FALSE)
 TAF::taf.boot()
 print.simple.list(dir(boot.dir(), full=TRUE, recursive=TRUE))
 
-source.all()
+TAF::source.all()
 print.simple.list(dir())
 print.simple.list(dir(model.dir(), full=TRUE))
 
-clean()
+TAF::clean()
 clean.boot(force=TRUE)

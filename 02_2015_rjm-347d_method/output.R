@@ -1,6 +1,6 @@
 ## Extract results of interest, write TAF output tables
 
-## Before: dls.txt (model)
+## Before: dls.txt (method)
 ## After:  dls.txt (output)
 
 library(icesTAF)
@@ -8,4 +8,4 @@ library(icesTAF)
 mkdir("output")
 
 ## Copy DLS results to output directory
-cp("model/dls.txt", "output")
+cp("method/dls.txt", "output")
